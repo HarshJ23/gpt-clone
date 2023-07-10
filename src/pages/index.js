@@ -66,6 +66,7 @@ export default function Home() {
    <div className="container mx-auto max-w-[700px]">
       <div className="flex flex-col h-screen bg-gray-900">
         <h1 className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-center py-3 font-bold text-6xl">GPT-Clone</h1>
+        <p className='text-red-500 text-center text-sm'>(The bot will currently not work as API key is not added as env variable)</p>
         <div className="flex-grow p-6">
           <div className="flex flex-col space-y-4">
           {
